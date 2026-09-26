@@ -1,6 +1,6 @@
 # Upstream class provenance and OOD detection
 
-Anonymous reproduction code for the ICLR 2027 submission. The repository contains source code, fixed class/rotation manifests, resolved experiment configurations, and lightweight protocol metadata. It intentionally contains no results, model weights, extracted features, logs, paper source, or author metadata.
+Anonymous reproduction code for the ICLR 2027 submission.
 
 ## Experiments
 
@@ -83,5 +83,3 @@ Set `CIFAR_SUPERVISED_ROOT`, `IMAGENET_SUPERVISED_ROOT`, and `INAT_SUPERVISED_RO
 python -m compileall -q .
 pytest -q analysis/detectors/tests
 ```
-
-The manifests and selection CSVs are the protocol source of truth. Do not regenerate semantic groups or alter image identities when reproducing the paired estimand.
