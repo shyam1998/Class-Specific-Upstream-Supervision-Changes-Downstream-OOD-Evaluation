@@ -1,0 +1,58 @@
+{
+  "amp_on_cuda": true,
+  "architecture": "CIFAR-style torchvision ResNet-18, 3x3 stride-1 stem, no max pool",
+  "augmentation": [
+    "RandomCrop(32,padding=4)",
+    "RandomHorizontalFlip()"
+  ],
+  "batch_size": 256,
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20260908,
+  "bootstrap_unit": "CIFAR-100 coarse superclass retaining all four candidate classes",
+  "data_dir": "../../../data/cifar100",
+  "source_semantic_manifest": "manifest.json",
+  "decision_rule": {
+    "cluster_ci_upper_strictly_below": 0.0,
+    "mean_delta_max": -0.03,
+    "minimum_negative_classes": 60,
+    "otherwise_label": "LOO_EFFECT_NOT_REPLICATED",
+    "replicated_label": "LOO_EFFECT_REPLICATED"
+  },
+  "delta_definition": "AUROC_withheld - mean(AUROC across three supervised models)",
+  "deterministic": true,
+  "epochs": 100,
+  "experiment": "supervised_cifar100_rotation4",
+  "feature_batch_size": 512,
+  "feature_interface": "512-dimensional pooled penultimate encoder feature",
+  "knn_distance": "cosine",
+  "knn_k": 50,
+  "knn_score": "mean distance to k nearest downstream-ID train embeddings",
+  "learning_rate": 0.1,
+  "models": [
+    "M1",
+    "M2",
+    "M3",
+    "M4"
+  ],
+  "momentum": 0.9,
+  "normalization_mean": [
+    0.5071,
+    0.4867,
+    0.4408
+  ],
+  "normalization_std": [
+    0.2675,
+    0.2565,
+    0.2761
+  ],
+  "num_workers": 4,
+  "optimizer": "SGD",
+  "pretraining_objective": "80-way supervised cross entropy",
+  "resume": true,
+  "scheduler": "CosineAnnealingLR",
+  "seeds": [
+    0,
+    1
+  ],
+  "weight_decay": 0.0005
+}

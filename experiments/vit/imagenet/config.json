@@ -1,0 +1,122 @@
+{
+  "architecture": {
+    "attention_dropout": 0.0,
+    "constructor": "torchvision.models.vision_transformer.VisionTransformer",
+    "depth": 12,
+    "dropout": 0.0,
+    "family": "torchvision VisionTransformer (ViT-Tiny/16)",
+    "feature_dim": 192,
+    "heads": 3,
+    "hidden_dim": 192,
+    "image_patches": 196,
+    "initialization": "random direct VisionTransformer construction; no weights argument or checkpoint load",
+    "input_resolution": 224,
+    "mlp_dim": 768,
+    "patch_size": 16,
+    "tokens_including_cls": 197,
+    "upstream_classes": 80
+  },
+  "augmentation": {
+    "cutmix_alpha": 1.0,
+    "drop_path_rate": 0.1,
+    "drop_path_schedule": "linear by transformer block",
+    "mixup_alpha": 0.8,
+    "mixup_cutmix_switch_probability": 0.5,
+    "randaugment": {
+      "fill": 0,
+      "implementation": "torchvision.transforms.v2.RandAugment",
+      "interpolation": "bicubic",
+      "magnitude": 9,
+      "num_magnitude_bins": 31,
+      "num_ops": 2
+    },
+    "random_erasing": {
+      "probability": 0.25,
+      "ratio": [
+        0.3,
+        3.3
+      ],
+      "scale": [
+        0.02,
+        0.33
+      ],
+      "value": 0.0
+    },
+    "random_horizontal_flip_probability": 0.5,
+    "random_resized_crop": {
+      "interpolation": "bicubic",
+      "size": 224
+    }
+  },
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20260909,
+  "classification_gate": {
+    "adequate_minimum": 0.55,
+    "insufficient_below": 0.5,
+    "mixed_minimum": 0.5
+  },
+  "data_root": "data/imagenet",
+  "delta_definition": "AUROC_withheld - mean(AUROC across three supervised rotations), within seed, then arithmetic mean across seeds",
+  "detectors": [
+    "knn",
+    "energy",
+    "msp",
+    "mahalanobis",
+    "vim",
+    "neco",
+    "nci",
+    "gradorth",
+    "odin"
+  ],
+  "effective_batch_size": 256,
+  "epochs": 300,
+  "experiment": "controlled_imagenet_vit_architecture_robustness",
+  "gradient_accumulation_steps": 1,
+  "knn_k": 50,
+  "label_smoothing": 0.1,
+  "learning_rate": 0.0003,
+  "loss": "soft-target cross entropy",
+  "models": [
+    "M1",
+    "M2",
+    "M3",
+    "M4"
+  ],
+  "nci_alpha": 0.01,
+  "nci_rationale": "fixed 192D ViT convention transferred from the preregistered CIFAR ViT experiments; selected before controlled-ImageNet OOD evaluation; no sweep",
+  "normalization_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalization_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "odin": {
+    "clipping": false,
+    "epsilon_raw_pixel_units": 0.0014,
+    "precision": "FP32",
+    "temperature": 1000.0
+  },
+  "optimizer": "AdamW",
+  "physical_batch_size": 256,
+  "probe": {
+    "architecture": "Linear(192,20,bias=True)",
+    "batch_size": 512,
+    "epochs": 50,
+    "learning_rate": 0.1,
+    "momentum": 0.9,
+    "optimizer": "SGD",
+    "schedule": "cosine",
+    "weight_decay": 0.0
+  },
+  "schedule": "linear warmup followed by cosine decay to zero",
+  "seeds": [
+    0,
+    1
+  ],
+  "warmup_epochs": 5,
+  "weight_decay": 0.05
+}

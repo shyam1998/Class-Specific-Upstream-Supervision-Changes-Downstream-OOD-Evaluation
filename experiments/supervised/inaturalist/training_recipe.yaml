@@ -1,0 +1,85 @@
+study: supervised_inaturalist_rotation4
+frozen_before_training: true
+dataset:
+  name: iNaturalist 2021 Competition FULL-NATIVE (frozen 100-species subset)
+  source_root: D:/research/ICLR2027/pt_ood_crossover/iNaturalist
+  source_manifest: D:/research/ICLR2027/pt_ood_crossover/dataset_feasibility_inaturalist2021/preferred_manifest_genus_20.csv
+  train_archive: train.tar.gz
+  train_annotations: train.json.tar.gz
+  validation_archive: val.tar.gz
+  validation_annotations: val.json.tar.gz
+  groups: 20
+  selected_species: 100
+  supervised_species_per_rotation: 80
+  train_images_per_species: native full counts (162-300; no resampling)
+  train_images_per_rotation: {M1: 22289, M2: 22142, M3: 22035, M4: 22058}
+  validation_images_per_species: 10
+upstream:
+  architecture: torchvision_resnet50
+  pretrained: false
+  feature_layer: 2048-D global-average-pooled penultimate representation
+  classifier_outputs: 80
+  resolution: 224
+  train_augmentation:
+    - RandomResizedCrop(224, scale=[0.08, 1.0], ratio=[0.75, 1.3333333333333333])
+    - RandomHorizontalFlip(p=0.5)
+    - ToTensor
+    - ImageNet normalization
+  validation_transform:
+    - Resize(256)
+    - CenterCrop(224)
+    - ToTensor
+    - ImageNet normalization
+  normalization_mean: [0.485, 0.456, 0.406]
+  normalization_std: [0.229, 0.224, 0.225]
+  batch_size: 256
+  effective_batch_size: 256
+  gradient_accumulation_steps: 1
+  batch_protocol_note: literal batch 256 required by local-hardware instruction; no gradient accumulation
+  optimizer: SGD
+  initial_lr: 0.1
+  momentum: 0.9
+  weight_decay: 0.0001
+  epochs: 100
+  schedule: step-wise 5-epoch linear warmup followed by cosine decay to zero
+  warmup_epochs: 5
+  label_smoothing: 0.0
+  amp: true
+  checkpoint_every_epochs: 5
+  excluded: [pretrained weights, MixUp, CutMix, RandAugment, label smoothing, EMA]
+  seeds: [0, 1]
+  rotations: [M1, M2, M3, M4]
+downstream:
+  id_classes: 20 frozen d species
+  id_train_images: 1000
+  id_validation_images: 200
+  ood_validation_images: 800
+  feature_dim: 2048
+  knn:
+    k: 50
+    distance: cosine
+    score: mean distance to 50 nearest downstream-ID train features
+    positive_class: OOD
+  probe:
+    architecture: Linear(2048, 20, bias=true)
+    matched_initialization_within_upstream_seed: true
+    probe_seed_convention: probe seed equals upstream seed
+    batch_size: 512
+    epochs: 50
+    optimizer: SGD
+    initial_lr: 0.1
+    momentum: 0.9
+    weight_decay: 0.0
+    schedule: cosine by epoch
+    temperature: 1.0
+  energy: -logsumexp(raw logits)
+  msp_secondary_free: 1 - max softmax(raw logits)
+bootstrap:
+  unit: genus group (all four future-OOD species retained)
+  draws: 10000
+  seed: 20260917
+  interval: percentile 95%
+hardware_gate:
+  gpu: NVIDIA RTX 4070 Laptop GPU, 12 GB VRAM
+  required_smoke_batch_size: 256
+  on_oom: stop before full training; no batch change and no accumulation
