@@ -1,0 +1,101 @@
+group_id,semantic_parent,role,slot,wnid,class_name,withheld_model,supervised_models,included_M1,included_M2,included_M3,included_M4
+1,bovid.n.01,d,0,n02422699,"impala, Aepyceros melampus",,M1;M2;M3;M4,True,True,True,True
+1,bovid.n.01,a,1,n02422106,hartebeest,M1,M2;M3;M4,False,True,True,True
+1,bovid.n.01,b,2,n02408429,"water buffalo, water ox, Asiatic buffalo, Bubalus bubalis",M2,M1;M3;M4,True,False,True,True
+1,bovid.n.01,r1,3,n02412080,"ram, tup",M3,M1;M2;M4,True,True,False,True
+1,bovid.n.01,r2,4,n02410509,bison,M4,M1;M2;M3,True,True,True,False
+2,dish.n.02,d,0,n07880968,burrito,,M1;M2;M3;M4,True,True,True,True
+2,dish.n.02,a,1,n07871810,"meat loaf, meatloaf",M1,M2;M3;M4,False,True,True,True
+2,dish.n.02,b,2,n07875152,potpie,M2,M1;M3;M4,True,False,True,True
+2,dish.n.02,r1,3,n07873807,"pizza, pizza pie",M3,M1;M2;M4,True,True,False,True
+2,dish.n.02,r2,4,n07584110,consomme,M4,M1;M2;M3,True,True,True,False
+3,ship.n.01,d,0,n04606251,wreck,,M1;M2;M3;M4,True,True,True,True
+3,ship.n.01,a,1,n04347754,"submarine, pigboat, sub, U-boat",M1,M2;M3;M4,False,True,True,True
+3,ship.n.01,b,2,n03095699,"container ship, containership, container vessel",M2,M1;M3;M4,True,False,True,True
+3,ship.n.01,r1,3,n03947888,"pirate, pirate ship",M3,M1;M2;M4,True,True,False,True
+3,ship.n.01,r2,4,n02687172,"aircraft carrier, carrier, flattop, attack aircraft carrier",M4,M1;M2;M3,True,True,True,False
+4,butterfly.n.01,d,0,n02276258,admiral,,M1;M2;M3;M4,True,True,True,True
+4,butterfly.n.01,a,1,n02281406,"sulphur butterfly, sulfur butterfly",M1,M2;M3;M4,False,True,True,True
+4,butterfly.n.01,b,2,n02279972,"monarch, monarch butterfly, milkweed butterfly, Danaus plexippus",M2,M1;M3;M4,True,False,True,True
+4,butterfly.n.01,r1,3,n02277742,"ringlet, ringlet butterfly",M3,M1;M2;M4,True,True,False,True
+4,butterfly.n.01,r2,4,n02281787,"lycaenid, lycaenid butterfly",M4,M1;M2;M3,True,True,True,False
+5,fruit.n.01,d,0,n07753592,banana,,M1;M2;M3;M4,True,True,True,True
+5,fruit.n.01,a,1,n07760859,custard apple,M1,M2;M3;M4,False,True,True,True
+5,fruit.n.01,b,2,n07753113,fig,M2,M1;M3;M4,True,False,True,True
+5,fruit.n.01,r1,3,n07753275,"pineapple, ananas",M3,M1;M2;M4,True,True,False,True
+5,fruit.n.01,r2,4,n07754684,"jackfruit, jak, jack",M4,M1;M2;M3,True,True,True,False
+6,kitchen_appliance.n.01,d,0,n03761084,"microwave, microwave oven",,M1;M2;M3;M4,True,True,True,True
+6,kitchen_appliance.n.01,a,1,n04542943,waffle iron,M1,M2;M3;M4,False,True,True,True
+6,kitchen_appliance.n.01,b,2,n04442312,toaster,M2,M1;M3;M4,True,False,True,True
+6,kitchen_appliance.n.01,r1,3,n03297495,espresso maker,M3,M1;M2;M4,True,True,False,True
+6,kitchen_appliance.n.01,r2,4,n03259280,Dutch oven,M4,M1;M2;M3,True,True,True,False
+7,shop.n.01,d,0,n02871525,"bookshop, bookstore, bookstall",,M1;M2;M3;M4,True,True,True,True
+7,shop.n.01,a,1,n02776631,"bakery, bakeshop, bakehouse",M1,M2;M3;M4,False,True,True,True
+7,shop.n.01,b,2,n03089624,"confectionery, confectionary, candy store",M2,M1;M3;M4,True,False,True,True
+7,shop.n.01,r1,3,n02791270,barbershop,M3,M1;M2;M4,True,True,False,True
+7,shop.n.01,r2,4,n02927161,"butcher shop, meat market",M4,M1;M2;M3,True,True,True,False
+8,colubrid_snake.n.01,d,0,n01729322,"hognose snake, puff adder, sand viper",,M1;M2;M3;M4,True,True,True,True
+8,colubrid_snake.n.01,a,1,n01729977,"green snake, grass snake",M1,M2;M3;M4,False,True,True,True
+8,colubrid_snake.n.01,b,2,n01728572,"thunder snake, worm snake, Carphophis amoenus",M2,M1;M3;M4,True,False,True,True
+8,colubrid_snake.n.01,r1,3,n01728920,"ringneck snake, ring-necked snake, ring snake",M3,M1;M2;M4,True,True,False,True
+8,colubrid_snake.n.01,r2,4,n01734418,"king snake, kingsnake",M4,M1;M2;M3,True,True,True,False
+9,retriever.n.01,d,0,n02099429,curly-coated retriever,,M1;M2;M3;M4,True,True,True,True
+9,retriever.n.01,a,1,n02099849,Chesapeake Bay retriever,M1,M2;M3;M4,False,True,True,True
+9,retriever.n.01,b,2,n02099712,Labrador retriever,M2,M1;M3;M4,True,False,True,True
+9,retriever.n.01,r1,3,n02099267,flat-coated retriever,M3,M1;M2;M4,True,True,False,True
+9,retriever.n.01,r2,4,n02099601,golden retriever,M4,M1;M2;M3,True,True,True,False
+10,cooking_utensil.n.01,d,0,n03063689,coffeepot,,M1;M2;M3;M4,True,True,True,True
+10,cooking_utensil.n.01,a,1,n03133878,Crock Pot,M1,M2;M3;M4,False,True,True,True
+10,cooking_utensil.n.01,b,2,n02939185,"caldron, cauldron",M2,M1;M3;M4,True,False,True,True
+10,cooking_utensil.n.01,r1,3,n04398044,teapot,M3,M1;M2;M4,True,True,False,True
+10,cooking_utensil.n.01,r2,4,n03400231,"frying pan, frypan, skillet",M4,M1;M2;M3,True,True,True,False
+11,vegetable.n.01,d,0,n07730033,cardoon,,M1;M2;M3;M4,True,True,True,True
+11,vegetable.n.01,a,1,n07718472,"cucumber, cuke",M1,M2;M3;M4,False,True,True,True
+11,vegetable.n.01,b,2,n07734744,mushroom,M2,M1;M3;M4,True,False,True,True
+11,vegetable.n.01,r1,3,n07711569,mashed potato,M3,M1;M2;M4,True,True,False,True
+11,vegetable.n.01,r2,4,n07718747,"artichoke, globe artichoke",M4,M1;M2;M3,True,True,True,False
+12,timepiece.n.01,d,0,n03544143,hourglass,,M1;M2;M3;M4,True,True,True,True
+12,timepiece.n.01,a,1,n04355338,sundial,M1,M2;M3;M4,False,True,True,True
+12,timepiece.n.01,b,2,n03196217,digital clock,M2,M1;M3;M4,True,False,True,True
+12,timepiece.n.01,r1,3,n03197337,digital watch,M3,M1;M2;M4,True,True,False,True
+12,timepiece.n.01,r2,4,n02708093,analog clock,M4,M1;M2;M3,True,True,True,False
+13,finch.n.01,d,0,n01530575,"brambling, Fringilla montifringilla",,M1;M2;M3;M4,True,True,True,True
+13,finch.n.01,a,1,n01537544,"indigo bunting, indigo finch, indigo bird, Passerina cyanea",M1,M2;M3;M4,False,True,True,True
+13,finch.n.01,b,2,n01534433,"junco, snowbird",M2,M1;M3;M4,True,False,True,True
+13,finch.n.01,r1,3,n01531178,"goldfinch, Carduelis carduelis",M3,M1;M2;M4,True,True,False,True
+13,finch.n.01,r2,4,n01532829,"house finch, linnet, Carpodacus mexicanus",M4,M1;M2;M3,True,True,True,False
+14,teleost_fish.n.01,d,0,n02640242,sturgeon,,M1;M2;M3;M4,True,True,True,True
+14,teleost_fish.n.01,a,1,n02655020,"puffer, pufferfish, blowfish, globefish",M1,M2;M3;M4,False,True,True,True
+14,teleost_fish.n.01,b,2,n02641379,"gar, garfish, garpike, billfish, Lepisosteus osseus",M2,M1;M3;M4,True,False,True,True
+14,teleost_fish.n.01,r1,3,n02536864,"coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch",M3,M1;M2;M4,True,True,False,True
+14,teleost_fish.n.01,r2,4,n02526121,eel,M4,M1;M2;M3,True,True,True,False
+15,footwear.n.02,d,0,n04133789,sandal,,M1;M2;M3;M4,True,True,True,True
+15,footwear.n.02,a,1,n04120489,running shoe,M1,M2;M3;M4,False,True,True,True
+15,footwear.n.02,b,2,n03047690,"clog, geta, patten, sabot",M2,M1;M3;M4,True,False,True,True
+15,footwear.n.02,r1,3,n03124043,cowboy boot,M3,M1;M2;M4,True,True,False,True
+15,footwear.n.02,r2,4,n03680355,Loafer,M4,M1;M2;M3,True,True,True,False
+16,truck.n.01,d,0,n03770679,minivan,,M1;M2;M3;M4,True,True,True,True
+16,truck.n.01,a,1,n04461696,"tow truck, tow car, wrecker",M1,M2;M3;M4,False,True,True,True
+16,truck.n.01,b,2,n03930630,"pickup, pickup truck",M2,M1;M3;M4,True,False,True,True
+16,truck.n.01,r1,3,n03417042,"garbage truck, dustcart",M3,M1;M2;M4,True,True,False,True
+16,truck.n.01,r2,4,n03345487,"fire engine, fire truck",M4,M1;M2;M3,True,True,True,False
+17,new_world_monkey.n.01,d,0,n02493509,"titi, titi monkey",,M1;M2;M3;M4,True,True,True,True
+17,new_world_monkey.n.01,a,1,n02490219,marmoset,M1,M2;M3;M4,False,True,True,True
+17,new_world_monkey.n.01,b,2,n02492660,"howler monkey, howler",M2,M1;M3;M4,True,False,True,True
+17,new_world_monkey.n.01,r1,3,n02492035,"capuchin, ringtail, Cebus capucinus",M3,M1;M2;M4,True,True,False,True
+17,new_world_monkey.n.01,r2,4,n02493793,"spider monkey, Ateles geoffroyi",M4,M1;M2;M3,True,True,True,False
+18,ball.n.01,d,0,n03445777,golf ball,,M1;M2;M3;M4,True,True,True,True
+18,ball.n.01,a,1,n02802426,basketball,M1,M2;M3;M4,False,True,True,True
+18,ball.n.01,b,2,n03134739,croquet ball,M2,M1;M3;M4,True,False,True,True
+18,ball.n.01,r1,3,n03942813,ping-pong ball,M3,M1;M2;M4,True,True,False,True
+18,ball.n.01,r2,4,n02799071,baseball,M4,M1;M2;M3,True,True,True,False
+19,seat.n.03,d,0,n03891251,park bench,,M1;M2;M3;M4,True,True,True,True
+19,seat.n.03,a,1,n03376595,folding chair,M1,M2;M3;M4,False,True,True,True
+19,seat.n.03,b,2,n02791124,barber chair,M2,M1;M3;M4,True,False,True,True
+19,seat.n.03,r1,3,n04099969,"rocking chair, rocker",M3,M1;M2;M4,True,True,False,True
+19,seat.n.03,r2,4,n04447861,toilet seat,M4,M1;M2;M3,True,True,True,False
+20,fungus.n.01,d,0,n13037406,gyromitra,,M1;M2;M3;M4,True,True,True,True
+20,fungus.n.01,a,1,n13044778,earthstar,M1,M2;M3;M4,False,True,True,True
+20,fungus.n.01,b,2,n13052670,"hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa",M2,M1;M3;M4,True,False,True,True
+20,fungus.n.01,r1,3,n12985857,coral fungus,M3,M1;M2;M4,True,True,False,True
+20,fungus.n.01,r2,4,n13040303,"stinkhorn, carrion fungus",M4,M1;M2;M3,True,True,True,False

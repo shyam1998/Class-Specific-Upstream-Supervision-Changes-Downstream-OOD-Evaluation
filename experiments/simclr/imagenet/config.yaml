@@ -1,0 +1,85 @@
+study: external_imagenet_simclr_grouped_rotation4
+design_revision: simclr_rotation4_v1
+dataset:
+  name: ILSVRC2012
+  root: ${IMAGENET_ROOT}
+  train_dir: train
+  val_dir: val
+source:
+  semantic_manifest: manifests/rotation4_v1/semantic_groups_rotation4_v1.json
+  semantic_manifest_sha256: de889da88da4f8ef505556e4f40ca978006edb6de8ca8e025a99d4e0a78e0e33
+  rotation_manifest: manifests/rotation4_v1/semantic_groups_rotation4_v1.json
+  rotation_manifest_sha256: 96dd8d7ac8e2dcf456ddd6d03cc35d252dc4e3aef7d1c101046b62d025c8cd77
+  supervised_preregistration: manifests/rotation4_v1/preregistration.json
+  supervised_preregistration_sha256: 67fc86a1f0f4abdfa208f3701080f3b17424ac98cd2d9f636bffa9236de11276
+simclr:
+  backbone: torchvision_resnet50
+  pretrained: false
+  feature_dim: 2048
+  projection_hidden_dim: 512
+  projection_dim: 128
+  projection_batch_norm: true
+  temperature: 0.5
+  epochs: 200
+  source_batch_size: 256
+  augmented_representations_per_loss: 512
+  amp: true
+  channels_last: true
+  optimizer: SGD
+  initial_lr: 0.5
+  momentum: 0.9
+  weight_decay: 0.0001
+  scheduler: CosineAnnealingLR
+  scheduler_t_max: 200
+  scheduler_eta_min: 0.0
+  warmup_epochs: 0
+  seeds: [0, 1]
+  models: [M1, M2, M3, M4]
+  checkpoint_every: 20
+  num_workers: 8
+augmentations:
+  random_resized_crop_size: 224
+  random_resized_crop_scale: [0.2, 1.0]
+  horizontal_flip_probability: 0.5
+  color_jitter: [0.4, 0.4, 0.4, 0.1]
+  color_jitter_probability: 0.8
+  random_grayscale_probability: 0.2
+  gaussian_blur: false
+  normalization_mean: [0.485, 0.456, 0.406]
+  normalization_std: [0.229, 0.224, 0.225]
+downstream:
+  feature_dim: 2048
+  feature_batch_size: 256
+  knn_k: 50
+  probe:
+    classes: 20
+    epochs: 50
+    batch_size: 256
+    optimizer: SGD
+    initial_lr: 0.1
+    momentum: 0.9
+    weight_decay: 0.0
+    schedule: cosine
+bootstrap:
+  draws: 10000
+  primary_seed: 20260913
+  moderation_seed: 20260914
+decision_rules:
+  simclr_mean_at_most: -0.03
+  simclr_min_negative_classes: 60
+  moderation_mean_at_most: -0.03
+paths:
+  namespace: simclr_rotation4_v1
+  protocol_record: manifests/simclr_rotation4_v1/authoritative_protocol.json
+  protocol_hash: manifests/simclr_rotation4_v1/authoritative_protocol.sha256
+  preregistration: manifests/simclr_rotation4_v1/preregistration.json
+  preregistration_hash: manifests/simclr_rotation4_v1/preregistration.sha256
+  source_guard: artifacts/simclr_rotation4_v1/protected_source_artifact_guard.json
+  memory_report: artifacts/simclr_rotation4_v1/memory_feasibility.json
+  dry_audit_json: artifacts/simclr_rotation4_v1/dry_run_audit.json
+  dry_audit_md: artifacts/simclr_rotation4_v1/dry_run_audit.md
+  run_manifest: artifacts/simclr_rotation4_v1/run_manifest.json
+  checkpoints: checkpoints/simclr_rotation4_v1
+  features: features/simclr_rotation4_v1
+  artifacts: artifacts/simclr_rotation4_v1
+  logs: logs/simclr_rotation4_v1

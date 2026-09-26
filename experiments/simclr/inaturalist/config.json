@@ -1,0 +1,110 @@
+{
+  "architecture": {
+    "backbone": "torchvision ResNet-50",
+    "external_pretrained_weights": null,
+    "feature_dim": 2048,
+    "projection_batch_norm": true,
+    "projector": [
+      2048,
+      512,
+      128
+    ]
+  },
+  "augmentation": {
+    "color_jitter": [
+      0.4,
+      0.4,
+      0.4,
+      0.1
+    ],
+    "color_jitter_random_apply_p": 0.8,
+    "gaussian_blur": false,
+    "horizontal_flip_p": 0.5,
+    "normalization": "ImageNet",
+    "random_grayscale_p": 0.2,
+    "random_resized_crop": {
+      "ratio": "torchvision default (0.75, 1.3333333333333333)",
+      "scale": [
+        0.2,
+        1.0
+      ],
+      "size": 224
+    }
+  },
+  "bootstrap": {
+    "detector_gap_seed": 20260921,
+    "draws": 10000,
+    "gamma_seed": 20260920,
+    "primary_seed": 20260919,
+    "unit": "genus retaining four c species"
+  },
+  "data": {
+    "rotation_totals": {
+      "M1": 22289,
+      "M2": 22142,
+      "M3": 22035,
+      "M4": 22058
+    },
+    "selected_data_root": "data/inaturalist"
+  },
+  "decision_rules": {
+    "moderation_ci_upper_below": 0,
+    "moderation_mean_at_most": -0.03,
+    "simclr_ci_upper_below": 0,
+    "simclr_mean_at_most": -0.03,
+    "simclr_min_negative_species": 60
+  },
+  "downstream": {
+    "energy": "-logsumexp(raw logits)",
+    "id_eval_images": 200,
+    "knn": {
+      "distance": "cosine",
+      "features": "L2-normalized",
+      "higher_is_ood": true,
+      "k": 50
+    },
+    "msp": "1-max softmax(raw logits)",
+    "ood_eval_images": 800,
+    "probe": {
+      "batch_size": 512,
+      "classes": 20,
+      "epochs": 50,
+      "learning_rate": 0.1,
+      "momentum": 0.9,
+      "optimizer": "SGD",
+      "scheduler": "cosine by epoch",
+      "temperature": 1,
+      "weight_decay": 0.0
+    },
+    "reference_images": 1000
+  },
+  "simclr": {
+    "activation_checkpointing": false,
+    "amp": true,
+    "channels_last": true,
+    "checkpoint_interval_epochs": 20,
+    "drop_last": true,
+    "epochs": 200,
+    "learning_rate": 0.5,
+    "momentum": 0.9,
+    "num_workers": 8,
+    "optimizer": "SGD",
+    "representations_per_loss": 512,
+    "rotations": [
+      "M1",
+      "M2",
+      "M3",
+      "M4"
+    ],
+    "scheduler": "CosineAnnealingLR(T_max=200, eta_min=0), epoch-stepped",
+    "seeds": [
+      0,
+      1
+    ],
+    "source_batch_size": 256,
+    "temperature": 0.5,
+    "warmup": null,
+    "weight_decay": 0.0001
+  },
+  "study": "final_inaturalist2021_full_native_simclr_grouped_rotation4_control"
+}
