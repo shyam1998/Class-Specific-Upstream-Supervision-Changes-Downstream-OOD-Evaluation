@@ -1,0 +1,3143 @@
+{
+  "groups": [
+    {
+      "classes": [
+        {
+          "candidate_id": "bovid.n.01__n02410509_n02408429_n02412080_n02422106_n02422699",
+          "class_depth": 16,
+          "class_name": "impala, Aepyceros melampus",
+          "imagenet_descendant_count": 9,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 14,
+          "parent_lexname": "noun.animal",
+          "parent_name": "bovid",
+          "role": "d",
+          "semantic_group": 1,
+          "semantic_parent": "bovid.n.01",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n02422699"
+        },
+        {
+          "candidate_id": "bovid.n.01__n02410509_n02408429_n02412080_n02422106_n02422699",
+          "class_depth": 16,
+          "class_name": "hartebeest",
+          "imagenet_descendant_count": 9,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 14,
+          "parent_lexname": "noun.animal",
+          "parent_name": "bovid",
+          "role": "a",
+          "semantic_group": 1,
+          "semantic_parent": "bovid.n.01",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n02422106"
+        },
+        {
+          "candidate_id": "bovid.n.01__n02410509_n02408429_n02412080_n02422106_n02422699",
+          "class_depth": 16,
+          "class_name": "water buffalo, water ox, Asiatic buffalo, Bubalus bubalis",
+          "imagenet_descendant_count": 9,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 14,
+          "parent_lexname": "noun.animal",
+          "parent_name": "bovid",
+          "role": "b",
+          "semantic_group": 1,
+          "semantic_parent": "bovid.n.01",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n02408429"
+        },
+        {
+          "candidate_id": "bovid.n.01__n02410509_n02408429_n02412080_n02422106_n02422699",
+          "class_depth": 16,
+          "class_name": "ram, tup",
+          "imagenet_descendant_count": 9,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 14,
+          "parent_lexname": "noun.animal",
+          "parent_name": "bovid",
+          "role": "r1",
+          "semantic_group": 1,
+          "semantic_parent": "bovid.n.01",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n02412080"
+        },
+        {
+          "candidate_id": "bovid.n.01__n02410509_n02408429_n02412080_n02422106_n02422699",
+          "class_depth": 15,
+          "class_name": "bison",
+          "imagenet_descendant_count": 9,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 14,
+          "parent_lexname": "noun.animal",
+          "parent_name": "bovid",
+          "role": "r2",
+          "semantic_group": 1,
+          "semantic_parent": "bovid.n.01",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n02410509"
+        }
+      ],
+      "group_id": 1,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n02422699",
+            "n02408429",
+            "n02412080",
+            "n02410509"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n02422106"
+        },
+        "M2": {
+          "included_wnids": [
+            "n02422699",
+            "n02422106",
+            "n02412080",
+            "n02410509"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n02408429"
+        },
+        "M3": {
+          "included_wnids": [
+            "n02422699",
+            "n02422106",
+            "n02408429",
+            "n02410509"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n02412080"
+        },
+        "M4": {
+          "included_wnids": [
+            "n02422699",
+            "n02422106",
+            "n02408429",
+            "n02412080"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n02410509"
+        }
+      },
+      "parent_depth": 14,
+      "parent_name": "bovid",
+      "semantic_parent": "bovid.n.01"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "dish.n.02__n07871810_n07873807_n07875152_n07880968_n07584110",
+          "class_depth": 7,
+          "class_name": "burrito",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 1.2,
+          "parent_depth": 6,
+          "parent_lexname": "noun.food",
+          "parent_name": "dish",
+          "role": "d",
+          "semantic_group": 2,
+          "semantic_parent": "dish.n.02",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n07880968"
+        },
+        {
+          "candidate_id": "dish.n.02__n07871810_n07873807_n07875152_n07880968_n07584110",
+          "class_depth": 7,
+          "class_name": "meat loaf, meatloaf",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 1.2,
+          "parent_depth": 6,
+          "parent_lexname": "noun.food",
+          "parent_name": "dish",
+          "role": "a",
+          "semantic_group": 2,
+          "semantic_parent": "dish.n.02",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n07871810"
+        },
+        {
+          "candidate_id": "dish.n.02__n07871810_n07873807_n07875152_n07880968_n07584110",
+          "class_depth": 7,
+          "class_name": "potpie",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 1.2,
+          "parent_depth": 6,
+          "parent_lexname": "noun.food",
+          "parent_name": "dish",
+          "role": "b",
+          "semantic_group": 2,
+          "semantic_parent": "dish.n.02",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n07875152"
+        },
+        {
+          "candidate_id": "dish.n.02__n07871810_n07873807_n07875152_n07880968_n07584110",
+          "class_depth": 7,
+          "class_name": "pizza, pizza pie",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 1.2,
+          "parent_depth": 6,
+          "parent_lexname": "noun.food",
+          "parent_name": "dish",
+          "role": "r1",
+          "semantic_group": 2,
+          "semantic_parent": "dish.n.02",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n07873807"
+        },
+        {
+          "candidate_id": "dish.n.02__n07871810_n07873807_n07875152_n07880968_n07584110",
+          "class_depth": 8,
+          "class_name": "consomme",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 1.2,
+          "parent_depth": 6,
+          "parent_lexname": "noun.food",
+          "parent_name": "dish",
+          "role": "r2",
+          "semantic_group": 2,
+          "semantic_parent": "dish.n.02",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n07584110"
+        }
+      ],
+      "group_id": 2,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n07880968",
+            "n07875152",
+            "n07873807",
+            "n07584110"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n07871810"
+        },
+        "M2": {
+          "included_wnids": [
+            "n07880968",
+            "n07871810",
+            "n07873807",
+            "n07584110"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n07875152"
+        },
+        "M3": {
+          "included_wnids": [
+            "n07880968",
+            "n07871810",
+            "n07875152",
+            "n07584110"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n07873807"
+        },
+        "M4": {
+          "included_wnids": [
+            "n07880968",
+            "n07871810",
+            "n07875152",
+            "n07873807"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n07584110"
+        }
+      },
+      "parent_depth": 6,
+      "parent_name": "dish",
+      "semantic_parent": "dish.n.02"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "ship.n.01__n02687172_n03947888_n04347754_n04606251_n03095699",
+          "class_depth": 11,
+          "class_name": "wreck",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 10,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "ship",
+          "role": "d",
+          "semantic_group": 3,
+          "semantic_parent": "ship.n.01",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n04606251"
+        },
+        {
+          "candidate_id": "ship.n.01__n02687172_n03947888_n04347754_n04606251_n03095699",
+          "class_depth": 11,
+          "class_name": "submarine, pigboat, sub, U-boat",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 10,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "ship",
+          "role": "a",
+          "semantic_group": 3,
+          "semantic_parent": "ship.n.01",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n04347754"
+        },
+        {
+          "candidate_id": "ship.n.01__n02687172_n03947888_n04347754_n04606251_n03095699",
+          "class_depth": 12,
+          "class_name": "container ship, containership, container vessel",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 10,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "ship",
+          "role": "b",
+          "semantic_group": 3,
+          "semantic_parent": "ship.n.01",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n03095699"
+        },
+        {
+          "candidate_id": "ship.n.01__n02687172_n03947888_n04347754_n04606251_n03095699",
+          "class_depth": 11,
+          "class_name": "pirate, pirate ship",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 10,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "ship",
+          "role": "r1",
+          "semantic_group": 3,
+          "semantic_parent": "ship.n.01",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n03947888"
+        },
+        {
+          "candidate_id": "ship.n.01__n02687172_n03947888_n04347754_n04606251_n03095699",
+          "class_depth": 10,
+          "class_name": "aircraft carrier, carrier, flattop, attack aircraft carrier",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 10,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "ship",
+          "role": "r2",
+          "semantic_group": 3,
+          "semantic_parent": "ship.n.01",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n02687172"
+        }
+      ],
+      "group_id": 3,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n04606251",
+            "n03095699",
+            "n03947888",
+            "n02687172"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n04347754"
+        },
+        "M2": {
+          "included_wnids": [
+            "n04606251",
+            "n04347754",
+            "n03947888",
+            "n02687172"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n03095699"
+        },
+        "M3": {
+          "included_wnids": [
+            "n04606251",
+            "n04347754",
+            "n03095699",
+            "n02687172"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n03947888"
+        },
+        "M4": {
+          "included_wnids": [
+            "n04606251",
+            "n04347754",
+            "n03095699",
+            "n03947888"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n02687172"
+        }
+      },
+      "parent_depth": 10,
+      "parent_name": "ship",
+      "semantic_parent": "ship.n.01"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "butterfly.n.01__n02277742_n02281406_n02281787_n02276258_n02279972",
+          "class_depth": 13,
+          "class_name": "admiral",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.4,
+          "parent_depth": 11,
+          "parent_lexname": "noun.animal",
+          "parent_name": "butterfly",
+          "role": "d",
+          "semantic_group": 4,
+          "semantic_parent": "butterfly.n.01",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n02276258"
+        },
+        {
+          "candidate_id": "butterfly.n.01__n02277742_n02281406_n02281787_n02276258_n02279972",
+          "class_depth": 12,
+          "class_name": "sulphur butterfly, sulfur butterfly",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.4,
+          "parent_depth": 11,
+          "parent_lexname": "noun.animal",
+          "parent_name": "butterfly",
+          "role": "a",
+          "semantic_group": 4,
+          "semantic_parent": "butterfly.n.01",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n02281406"
+        },
+        {
+          "candidate_id": "butterfly.n.01__n02277742_n02281406_n02281787_n02276258_n02279972",
+          "class_depth": 13,
+          "class_name": "monarch, monarch butterfly, milkweed butterfly, Danaus plexippus",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.4,
+          "parent_depth": 11,
+          "parent_lexname": "noun.animal",
+          "parent_name": "butterfly",
+          "role": "b",
+          "semantic_group": 4,
+          "semantic_parent": "butterfly.n.01",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n02279972"
+        },
+        {
+          "candidate_id": "butterfly.n.01__n02277742_n02281406_n02281787_n02276258_n02279972",
+          "class_depth": 12,
+          "class_name": "ringlet, ringlet butterfly",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.4,
+          "parent_depth": 11,
+          "parent_lexname": "noun.animal",
+          "parent_name": "butterfly",
+          "role": "r1",
+          "semantic_group": 4,
+          "semantic_parent": "butterfly.n.01",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n02277742"
+        },
+        {
+          "candidate_id": "butterfly.n.01__n02277742_n02281406_n02281787_n02276258_n02279972",
+          "class_depth": 12,
+          "class_name": "lycaenid, lycaenid butterfly",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.4,
+          "parent_depth": 11,
+          "parent_lexname": "noun.animal",
+          "parent_name": "butterfly",
+          "role": "r2",
+          "semantic_group": 4,
+          "semantic_parent": "butterfly.n.01",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n02281787"
+        }
+      ],
+      "group_id": 4,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n02276258",
+            "n02279972",
+            "n02277742",
+            "n02281787"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n02281406"
+        },
+        "M2": {
+          "included_wnids": [
+            "n02276258",
+            "n02281406",
+            "n02277742",
+            "n02281787"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n02279972"
+        },
+        "M3": {
+          "included_wnids": [
+            "n02276258",
+            "n02281406",
+            "n02279972",
+            "n02281787"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n02277742"
+        },
+        "M4": {
+          "included_wnids": [
+            "n02276258",
+            "n02281406",
+            "n02279972",
+            "n02277742"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n02281787"
+        }
+      },
+      "parent_depth": 11,
+      "parent_name": "butterfly",
+      "semantic_parent": "butterfly.n.01"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "fruit.n.01__n07753113_n07753275_n07753592_n07754684_n07760859",
+          "class_depth": 7,
+          "class_name": "banana",
+          "imagenet_descendant_count": 16,
+          "mean_relative_depth": -1.0,
+          "parent_depth": 8,
+          "parent_lexname": "noun.plant",
+          "parent_name": "fruit",
+          "role": "d",
+          "semantic_group": 5,
+          "semantic_parent": "fruit.n.01",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n07753592"
+        },
+        {
+          "candidate_id": "fruit.n.01__n07753113_n07753275_n07753592_n07754684_n07760859",
+          "class_depth": 7,
+          "class_name": "custard apple",
+          "imagenet_descendant_count": 16,
+          "mean_relative_depth": -1.0,
+          "parent_depth": 8,
+          "parent_lexname": "noun.plant",
+          "parent_name": "fruit",
+          "role": "a",
+          "semantic_group": 5,
+          "semantic_parent": "fruit.n.01",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n07760859"
+        },
+        {
+          "candidate_id": "fruit.n.01__n07753113_n07753275_n07753592_n07754684_n07760859",
+          "class_depth": 7,
+          "class_name": "fig",
+          "imagenet_descendant_count": 16,
+          "mean_relative_depth": -1.0,
+          "parent_depth": 8,
+          "parent_lexname": "noun.plant",
+          "parent_name": "fruit",
+          "role": "b",
+          "semantic_group": 5,
+          "semantic_parent": "fruit.n.01",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n07753113"
+        },
+        {
+          "candidate_id": "fruit.n.01__n07753113_n07753275_n07753592_n07754684_n07760859",
+          "class_depth": 7,
+          "class_name": "pineapple, ananas",
+          "imagenet_descendant_count": 16,
+          "mean_relative_depth": -1.0,
+          "parent_depth": 8,
+          "parent_lexname": "noun.plant",
+          "parent_name": "fruit",
+          "role": "r1",
+          "semantic_group": 5,
+          "semantic_parent": "fruit.n.01",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n07753275"
+        },
+        {
+          "candidate_id": "fruit.n.01__n07753113_n07753275_n07753592_n07754684_n07760859",
+          "class_depth": 7,
+          "class_name": "jackfruit, jak, jack",
+          "imagenet_descendant_count": 16,
+          "mean_relative_depth": -1.0,
+          "parent_depth": 8,
+          "parent_lexname": "noun.plant",
+          "parent_name": "fruit",
+          "role": "r2",
+          "semantic_group": 5,
+          "semantic_parent": "fruit.n.01",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n07754684"
+        }
+      ],
+      "group_id": 5,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n07753592",
+            "n07753113",
+            "n07753275",
+            "n07754684"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n07760859"
+        },
+        "M2": {
+          "included_wnids": [
+            "n07753592",
+            "n07760859",
+            "n07753275",
+            "n07754684"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n07753113"
+        },
+        "M3": {
+          "included_wnids": [
+            "n07753592",
+            "n07760859",
+            "n07753113",
+            "n07754684"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n07753275"
+        },
+        "M4": {
+          "included_wnids": [
+            "n07753592",
+            "n07760859",
+            "n07753113",
+            "n07753275"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n07754684"
+        }
+      },
+      "parent_depth": 8,
+      "parent_name": "fruit",
+      "semantic_parent": "fruit.n.01"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "kitchen_appliance.n.01__n03761084_n04442312_n04542943_n03259280_n03297495",
+          "class_depth": 11,
+          "class_name": "microwave, microwave oven",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.4,
+          "parent_depth": 10,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "kitchen appliance",
+          "role": "d",
+          "semantic_group": 6,
+          "semantic_parent": "kitchen_appliance.n.01",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n03761084"
+        },
+        {
+          "candidate_id": "kitchen_appliance.n.01__n03761084_n04442312_n04542943_n03259280_n03297495",
+          "class_depth": 11,
+          "class_name": "waffle iron",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.4,
+          "parent_depth": 10,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "kitchen appliance",
+          "role": "a",
+          "semantic_group": 6,
+          "semantic_parent": "kitchen_appliance.n.01",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n04542943"
+        },
+        {
+          "candidate_id": "kitchen_appliance.n.01__n03761084_n04442312_n04542943_n03259280_n03297495",
+          "class_depth": 11,
+          "class_name": "toaster",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.4,
+          "parent_depth": 10,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "kitchen appliance",
+          "role": "b",
+          "semantic_group": 6,
+          "semantic_parent": "kitchen_appliance.n.01",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n04442312"
+        },
+        {
+          "candidate_id": "kitchen_appliance.n.01__n03761084_n04442312_n04542943_n03259280_n03297495",
+          "class_depth": 12,
+          "class_name": "espresso maker",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.4,
+          "parent_depth": 10,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "kitchen appliance",
+          "role": "r1",
+          "semantic_group": 6,
+          "semantic_parent": "kitchen_appliance.n.01",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n03297495"
+        },
+        {
+          "candidate_id": "kitchen_appliance.n.01__n03761084_n04442312_n04542943_n03259280_n03297495",
+          "class_depth": 12,
+          "class_name": "Dutch oven",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.4,
+          "parent_depth": 10,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "kitchen appliance",
+          "role": "r2",
+          "semantic_group": 6,
+          "semantic_parent": "kitchen_appliance.n.01",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n03259280"
+        }
+      ],
+      "group_id": 6,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n03761084",
+            "n04442312",
+            "n03297495",
+            "n03259280"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n04542943"
+        },
+        "M2": {
+          "included_wnids": [
+            "n03761084",
+            "n04542943",
+            "n03297495",
+            "n03259280"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n04442312"
+        },
+        "M3": {
+          "included_wnids": [
+            "n03761084",
+            "n04542943",
+            "n04442312",
+            "n03259280"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n03297495"
+        },
+        "M4": {
+          "included_wnids": [
+            "n03761084",
+            "n04542943",
+            "n04442312",
+            "n03297495"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n03259280"
+        }
+      },
+      "parent_depth": 10,
+      "parent_name": "kitchen appliance",
+      "semantic_parent": "kitchen_appliance.n.01"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "shop.n.01__n02776631_n02791270_n02871525_n02927161_n03089624",
+          "class_depth": 10,
+          "class_name": "bookshop, bookstore, bookstall",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 0.4,
+          "parent_depth": 9,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "shop, store",
+          "role": "d",
+          "semantic_group": 7,
+          "semantic_parent": "shop.n.01",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n02871525"
+        },
+        {
+          "candidate_id": "shop.n.01__n02776631_n02791270_n02871525_n02927161_n03089624",
+          "class_depth": 7,
+          "class_name": "bakery, bakeshop, bakehouse",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 0.4,
+          "parent_depth": 9,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "shop, store",
+          "role": "a",
+          "semantic_group": 7,
+          "semantic_parent": "shop.n.01",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n02776631"
+        },
+        {
+          "candidate_id": "shop.n.01__n02776631_n02791270_n02871525_n02927161_n03089624",
+          "class_depth": 10,
+          "class_name": "confectionery, confectionary, candy store",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 0.4,
+          "parent_depth": 9,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "shop, store",
+          "role": "b",
+          "semantic_group": 7,
+          "semantic_parent": "shop.n.01",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n03089624"
+        },
+        {
+          "candidate_id": "shop.n.01__n02776631_n02791270_n02871525_n02927161_n03089624",
+          "class_depth": 10,
+          "class_name": "barbershop",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 0.4,
+          "parent_depth": 9,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "shop, store",
+          "role": "r1",
+          "semantic_group": 7,
+          "semantic_parent": "shop.n.01",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n02791270"
+        },
+        {
+          "candidate_id": "shop.n.01__n02776631_n02791270_n02871525_n02927161_n03089624",
+          "class_depth": 10,
+          "class_name": "butcher shop, meat market",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 0.4,
+          "parent_depth": 9,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "shop, store",
+          "role": "r2",
+          "semantic_group": 7,
+          "semantic_parent": "shop.n.01",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n02927161"
+        }
+      ],
+      "group_id": 7,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n02871525",
+            "n03089624",
+            "n02791270",
+            "n02927161"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n02776631"
+        },
+        "M2": {
+          "included_wnids": [
+            "n02871525",
+            "n02776631",
+            "n02791270",
+            "n02927161"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n03089624"
+        },
+        "M3": {
+          "included_wnids": [
+            "n02871525",
+            "n02776631",
+            "n03089624",
+            "n02927161"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n02791270"
+        },
+        "M4": {
+          "included_wnids": [
+            "n02871525",
+            "n02776631",
+            "n03089624",
+            "n02791270"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n02927161"
+        }
+      },
+      "parent_depth": 9,
+      "parent_name": "shop, store",
+      "semantic_parent": "shop.n.01"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "colubrid_snake.n.01__n01728572_n01728920_n01729322_n01729977_n01734418",
+          "class_depth": 13,
+          "class_name": "hognose snake, puff adder, sand viper",
+          "imagenet_descendant_count": 9,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 12,
+          "parent_lexname": "noun.animal",
+          "parent_name": "colubrid snake, colubrid",
+          "role": "d",
+          "semantic_group": 8,
+          "semantic_parent": "colubrid_snake.n.01",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n01729322"
+        },
+        {
+          "candidate_id": "colubrid_snake.n.01__n01728572_n01728920_n01729322_n01729977_n01734418",
+          "class_depth": 13,
+          "class_name": "green snake, grass snake",
+          "imagenet_descendant_count": 9,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 12,
+          "parent_lexname": "noun.animal",
+          "parent_name": "colubrid snake, colubrid",
+          "role": "a",
+          "semantic_group": 8,
+          "semantic_parent": "colubrid_snake.n.01",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n01729977"
+        },
+        {
+          "candidate_id": "colubrid_snake.n.01__n01728572_n01728920_n01729322_n01729977_n01734418",
+          "class_depth": 13,
+          "class_name": "thunder snake, worm snake, Carphophis amoenus",
+          "imagenet_descendant_count": 9,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 12,
+          "parent_lexname": "noun.animal",
+          "parent_name": "colubrid snake, colubrid",
+          "role": "b",
+          "semantic_group": 8,
+          "semantic_parent": "colubrid_snake.n.01",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n01728572"
+        },
+        {
+          "candidate_id": "colubrid_snake.n.01__n01728572_n01728920_n01729322_n01729977_n01734418",
+          "class_depth": 13,
+          "class_name": "ringneck snake, ring-necked snake, ring snake",
+          "imagenet_descendant_count": 9,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 12,
+          "parent_lexname": "noun.animal",
+          "parent_name": "colubrid snake, colubrid",
+          "role": "r1",
+          "semantic_group": 8,
+          "semantic_parent": "colubrid_snake.n.01",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n01728920"
+        },
+        {
+          "candidate_id": "colubrid_snake.n.01__n01728572_n01728920_n01729322_n01729977_n01734418",
+          "class_depth": 13,
+          "class_name": "king snake, kingsnake",
+          "imagenet_descendant_count": 9,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 12,
+          "parent_lexname": "noun.animal",
+          "parent_name": "colubrid snake, colubrid",
+          "role": "r2",
+          "semantic_group": 8,
+          "semantic_parent": "colubrid_snake.n.01",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n01734418"
+        }
+      ],
+      "group_id": 8,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n01729322",
+            "n01728572",
+            "n01728920",
+            "n01734418"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n01729977"
+        },
+        "M2": {
+          "included_wnids": [
+            "n01729322",
+            "n01729977",
+            "n01728920",
+            "n01734418"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n01728572"
+        },
+        "M3": {
+          "included_wnids": [
+            "n01729322",
+            "n01729977",
+            "n01728572",
+            "n01734418"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n01728920"
+        },
+        "M4": {
+          "included_wnids": [
+            "n01729322",
+            "n01729977",
+            "n01728572",
+            "n01728920"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n01734418"
+        }
+      },
+      "parent_depth": 12,
+      "parent_name": "colubrid snake, colubrid",
+      "semantic_parent": "colubrid_snake.n.01"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "retriever.n.01__n02099267_n02099429_n02099601_n02099712_n02099849",
+          "class_depth": 12,
+          "class_name": "curly-coated retriever",
+          "imagenet_descendant_count": 5,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 11,
+          "parent_lexname": "noun.animal",
+          "parent_name": "retriever",
+          "role": "d",
+          "semantic_group": 9,
+          "semantic_parent": "retriever.n.01",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n02099429"
+        },
+        {
+          "candidate_id": "retriever.n.01__n02099267_n02099429_n02099601_n02099712_n02099849",
+          "class_depth": 12,
+          "class_name": "Chesapeake Bay retriever",
+          "imagenet_descendant_count": 5,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 11,
+          "parent_lexname": "noun.animal",
+          "parent_name": "retriever",
+          "role": "a",
+          "semantic_group": 9,
+          "semantic_parent": "retriever.n.01",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n02099849"
+        },
+        {
+          "candidate_id": "retriever.n.01__n02099267_n02099429_n02099601_n02099712_n02099849",
+          "class_depth": 12,
+          "class_name": "Labrador retriever",
+          "imagenet_descendant_count": 5,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 11,
+          "parent_lexname": "noun.animal",
+          "parent_name": "retriever",
+          "role": "b",
+          "semantic_group": 9,
+          "semantic_parent": "retriever.n.01",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n02099712"
+        },
+        {
+          "candidate_id": "retriever.n.01__n02099267_n02099429_n02099601_n02099712_n02099849",
+          "class_depth": 12,
+          "class_name": "flat-coated retriever",
+          "imagenet_descendant_count": 5,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 11,
+          "parent_lexname": "noun.animal",
+          "parent_name": "retriever",
+          "role": "r1",
+          "semantic_group": 9,
+          "semantic_parent": "retriever.n.01",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n02099267"
+        },
+        {
+          "candidate_id": "retriever.n.01__n02099267_n02099429_n02099601_n02099712_n02099849",
+          "class_depth": 12,
+          "class_name": "golden retriever",
+          "imagenet_descendant_count": 5,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 11,
+          "parent_lexname": "noun.animal",
+          "parent_name": "retriever",
+          "role": "r2",
+          "semantic_group": 9,
+          "semantic_parent": "retriever.n.01",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n02099601"
+        }
+      ],
+      "group_id": 9,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n02099429",
+            "n02099712",
+            "n02099267",
+            "n02099601"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n02099849"
+        },
+        "M2": {
+          "included_wnids": [
+            "n02099429",
+            "n02099849",
+            "n02099267",
+            "n02099601"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n02099712"
+        },
+        "M3": {
+          "included_wnids": [
+            "n02099429",
+            "n02099849",
+            "n02099712",
+            "n02099601"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n02099267"
+        },
+        "M4": {
+          "included_wnids": [
+            "n02099429",
+            "n02099849",
+            "n02099712",
+            "n02099267"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n02099601"
+        }
+      },
+      "parent_depth": 11,
+      "parent_name": "retriever",
+      "semantic_parent": "retriever.n.01"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "cooking_utensil.n.01__n02939185_n03063689_n04398044_n03133878_n03400231",
+          "class_depth": 9,
+          "class_name": "coffeepot",
+          "imagenet_descendant_count": 7,
+          "mean_relative_depth": 0.8,
+          "parent_depth": 9,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "cooking utensil, cookware",
+          "role": "d",
+          "semantic_group": 10,
+          "semantic_parent": "cooking_utensil.n.01",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n03063689"
+        },
+        {
+          "candidate_id": "cooking_utensil.n.01__n02939185_n03063689_n04398044_n03133878_n03400231",
+          "class_depth": 11,
+          "class_name": "Crock Pot",
+          "imagenet_descendant_count": 7,
+          "mean_relative_depth": 0.8,
+          "parent_depth": 9,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "cooking utensil, cookware",
+          "role": "a",
+          "semantic_group": 10,
+          "semantic_parent": "cooking_utensil.n.01",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n03133878"
+        },
+        {
+          "candidate_id": "cooking_utensil.n.01__n02939185_n03063689_n04398044_n03133878_n03400231",
+          "class_depth": 9,
+          "class_name": "caldron, cauldron",
+          "imagenet_descendant_count": 7,
+          "mean_relative_depth": 0.8,
+          "parent_depth": 9,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "cooking utensil, cookware",
+          "role": "b",
+          "semantic_group": 10,
+          "semantic_parent": "cooking_utensil.n.01",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n02939185"
+        },
+        {
+          "candidate_id": "cooking_utensil.n.01__n02939185_n03063689_n04398044_n03133878_n03400231",
+          "class_depth": 9,
+          "class_name": "teapot",
+          "imagenet_descendant_count": 7,
+          "mean_relative_depth": 0.8,
+          "parent_depth": 9,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "cooking utensil, cookware",
+          "role": "r1",
+          "semantic_group": 10,
+          "semantic_parent": "cooking_utensil.n.01",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n04398044"
+        },
+        {
+          "candidate_id": "cooking_utensil.n.01__n02939185_n03063689_n04398044_n03133878_n03400231",
+          "class_depth": 11,
+          "class_name": "frying pan, frypan, skillet",
+          "imagenet_descendant_count": 7,
+          "mean_relative_depth": 0.8,
+          "parent_depth": 9,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "cooking utensil, cookware",
+          "role": "r2",
+          "semantic_group": 10,
+          "semantic_parent": "cooking_utensil.n.01",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n03400231"
+        }
+      ],
+      "group_id": 10,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n03063689",
+            "n02939185",
+            "n04398044",
+            "n03400231"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n03133878"
+        },
+        "M2": {
+          "included_wnids": [
+            "n03063689",
+            "n03133878",
+            "n04398044",
+            "n03400231"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n02939185"
+        },
+        "M3": {
+          "included_wnids": [
+            "n03063689",
+            "n03133878",
+            "n02939185",
+            "n03400231"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n04398044"
+        },
+        "M4": {
+          "included_wnids": [
+            "n03063689",
+            "n03133878",
+            "n02939185",
+            "n04398044"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n03400231"
+        }
+      },
+      "parent_depth": 9,
+      "parent_name": "cooking utensil, cookware",
+      "semantic_parent": "cooking_utensil.n.01"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "vegetable.n.01__n07718472_n07718747_n07730033_n07734744_n07711569",
+          "class_depth": 7,
+          "class_name": "cardoon",
+          "imagenet_descendant_count": 13,
+          "mean_relative_depth": 1.2,
+          "parent_depth": 6,
+          "parent_lexname": "noun.food",
+          "parent_name": "vegetable, veggie, veg",
+          "role": "d",
+          "semantic_group": 11,
+          "semantic_parent": "vegetable.n.01",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n07730033"
+        },
+        {
+          "candidate_id": "vegetable.n.01__n07718472_n07718747_n07730033_n07734744_n07711569",
+          "class_depth": 7,
+          "class_name": "cucumber, cuke",
+          "imagenet_descendant_count": 13,
+          "mean_relative_depth": 1.2,
+          "parent_depth": 6,
+          "parent_lexname": "noun.food",
+          "parent_name": "vegetable, veggie, veg",
+          "role": "a",
+          "semantic_group": 11,
+          "semantic_parent": "vegetable.n.01",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n07718472"
+        },
+        {
+          "candidate_id": "vegetable.n.01__n07718472_n07718747_n07730033_n07734744_n07711569",
+          "class_depth": 7,
+          "class_name": "mushroom",
+          "imagenet_descendant_count": 13,
+          "mean_relative_depth": 1.2,
+          "parent_depth": 6,
+          "parent_lexname": "noun.food",
+          "parent_name": "vegetable, veggie, veg",
+          "role": "b",
+          "semantic_group": 11,
+          "semantic_parent": "vegetable.n.01",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n07734744"
+        },
+        {
+          "candidate_id": "vegetable.n.01__n07718472_n07718747_n07730033_n07734744_n07711569",
+          "class_depth": 8,
+          "class_name": "mashed potato",
+          "imagenet_descendant_count": 13,
+          "mean_relative_depth": 1.2,
+          "parent_depth": 6,
+          "parent_lexname": "noun.food",
+          "parent_name": "vegetable, veggie, veg",
+          "role": "r1",
+          "semantic_group": 11,
+          "semantic_parent": "vegetable.n.01",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n07711569"
+        },
+        {
+          "candidate_id": "vegetable.n.01__n07718472_n07718747_n07730033_n07734744_n07711569",
+          "class_depth": 7,
+          "class_name": "artichoke, globe artichoke",
+          "imagenet_descendant_count": 13,
+          "mean_relative_depth": 1.2,
+          "parent_depth": 6,
+          "parent_lexname": "noun.food",
+          "parent_name": "vegetable, veggie, veg",
+          "role": "r2",
+          "semantic_group": 11,
+          "semantic_parent": "vegetable.n.01",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n07718747"
+        }
+      ],
+      "group_id": 11,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n07730033",
+            "n07734744",
+            "n07711569",
+            "n07718747"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n07718472"
+        },
+        "M2": {
+          "included_wnids": [
+            "n07730033",
+            "n07718472",
+            "n07711569",
+            "n07718747"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n07734744"
+        },
+        "M3": {
+          "included_wnids": [
+            "n07730033",
+            "n07718472",
+            "n07734744",
+            "n07718747"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n07711569"
+        },
+        "M4": {
+          "included_wnids": [
+            "n07730033",
+            "n07718472",
+            "n07734744",
+            "n07711569"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n07718747"
+        }
+      },
+      "parent_depth": 6,
+      "parent_name": "vegetable, veggie, veg",
+      "semantic_parent": "vegetable.n.01"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "timepiece.n.01__n04355338_n02708093_n03196217_n03197337_n03544143",
+          "class_depth": 11,
+          "class_name": "hourglass",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 9,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "timepiece, timekeeper, horologe",
+          "role": "d",
+          "semantic_group": 12,
+          "semantic_parent": "timepiece.n.01",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n03544143"
+        },
+        {
+          "candidate_id": "timepiece.n.01__n04355338_n02708093_n03196217_n03197337_n03544143",
+          "class_depth": 10,
+          "class_name": "sundial",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 9,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "timepiece, timekeeper, horologe",
+          "role": "a",
+          "semantic_group": 12,
+          "semantic_parent": "timepiece.n.01",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n04355338"
+        },
+        {
+          "candidate_id": "timepiece.n.01__n04355338_n02708093_n03196217_n03197337_n03544143",
+          "class_depth": 11,
+          "class_name": "digital clock",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 9,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "timepiece, timekeeper, horologe",
+          "role": "b",
+          "semantic_group": 12,
+          "semantic_parent": "timepiece.n.01",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n03196217"
+        },
+        {
+          "candidate_id": "timepiece.n.01__n04355338_n02708093_n03196217_n03197337_n03544143",
+          "class_depth": 11,
+          "class_name": "digital watch",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 9,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "timepiece, timekeeper, horologe",
+          "role": "r1",
+          "semantic_group": 12,
+          "semantic_parent": "timepiece.n.01",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n03197337"
+        },
+        {
+          "candidate_id": "timepiece.n.01__n04355338_n02708093_n03196217_n03197337_n03544143",
+          "class_depth": 11,
+          "class_name": "analog clock",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 9,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "timepiece, timekeeper, horologe",
+          "role": "r2",
+          "semantic_group": 12,
+          "semantic_parent": "timepiece.n.01",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n02708093"
+        }
+      ],
+      "group_id": 12,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n03544143",
+            "n03196217",
+            "n03197337",
+            "n02708093"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n04355338"
+        },
+        "M2": {
+          "included_wnids": [
+            "n03544143",
+            "n04355338",
+            "n03197337",
+            "n02708093"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n03196217"
+        },
+        "M3": {
+          "included_wnids": [
+            "n03544143",
+            "n04355338",
+            "n03196217",
+            "n02708093"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n03197337"
+        },
+        "M4": {
+          "included_wnids": [
+            "n03544143",
+            "n04355338",
+            "n03196217",
+            "n03197337"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n02708093"
+        }
+      },
+      "parent_depth": 9,
+      "parent_name": "timepiece, timekeeper, horologe",
+      "semantic_parent": "timepiece.n.01"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "finch.n.01__n01530575_n01531178_n01532829_n01534433_n01537544",
+          "class_depth": 13,
+          "class_name": "brambling, Fringilla montifringilla",
+          "imagenet_descendant_count": 5,
+          "mean_relative_depth": 1.2,
+          "parent_depth": 12,
+          "parent_lexname": "noun.animal",
+          "parent_name": "finch",
+          "role": "d",
+          "semantic_group": 13,
+          "semantic_parent": "finch.n.01",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n01530575"
+        },
+        {
+          "candidate_id": "finch.n.01__n01530575_n01531178_n01532829_n01534433_n01537544",
+          "class_depth": 14,
+          "class_name": "indigo bunting, indigo finch, indigo bird, Passerina cyanea",
+          "imagenet_descendant_count": 5,
+          "mean_relative_depth": 1.2,
+          "parent_depth": 12,
+          "parent_lexname": "noun.animal",
+          "parent_name": "finch",
+          "role": "a",
+          "semantic_group": 13,
+          "semantic_parent": "finch.n.01",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n01537544"
+        },
+        {
+          "candidate_id": "finch.n.01__n01530575_n01531178_n01532829_n01534433_n01537544",
+          "class_depth": 13,
+          "class_name": "junco, snowbird",
+          "imagenet_descendant_count": 5,
+          "mean_relative_depth": 1.2,
+          "parent_depth": 12,
+          "parent_lexname": "noun.animal",
+          "parent_name": "finch",
+          "role": "b",
+          "semantic_group": 13,
+          "semantic_parent": "finch.n.01",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n01534433"
+        },
+        {
+          "candidate_id": "finch.n.01__n01530575_n01531178_n01532829_n01534433_n01537544",
+          "class_depth": 13,
+          "class_name": "goldfinch, Carduelis carduelis",
+          "imagenet_descendant_count": 5,
+          "mean_relative_depth": 1.2,
+          "parent_depth": 12,
+          "parent_lexname": "noun.animal",
+          "parent_name": "finch",
+          "role": "r1",
+          "semantic_group": 13,
+          "semantic_parent": "finch.n.01",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n01531178"
+        },
+        {
+          "candidate_id": "finch.n.01__n01530575_n01531178_n01532829_n01534433_n01537544",
+          "class_depth": 13,
+          "class_name": "house finch, linnet, Carpodacus mexicanus",
+          "imagenet_descendant_count": 5,
+          "mean_relative_depth": 1.2,
+          "parent_depth": 12,
+          "parent_lexname": "noun.animal",
+          "parent_name": "finch",
+          "role": "r2",
+          "semantic_group": 13,
+          "semantic_parent": "finch.n.01",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n01532829"
+        }
+      ],
+      "group_id": 13,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n01530575",
+            "n01534433",
+            "n01531178",
+            "n01532829"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n01537544"
+        },
+        "M2": {
+          "included_wnids": [
+            "n01530575",
+            "n01537544",
+            "n01531178",
+            "n01532829"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n01534433"
+        },
+        "M3": {
+          "included_wnids": [
+            "n01530575",
+            "n01537544",
+            "n01534433",
+            "n01532829"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n01531178"
+        },
+        "M4": {
+          "included_wnids": [
+            "n01530575",
+            "n01537544",
+            "n01534433",
+            "n01531178"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n01532829"
+        }
+      },
+      "parent_depth": 12,
+      "parent_name": "finch",
+      "semantic_parent": "finch.n.01"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "teleost_fish.n.01__n02536864_n02526121_n02640242_n02641379_n02655020",
+          "class_depth": 14,
+          "class_name": "sturgeon",
+          "imagenet_descendant_count": 10,
+          "mean_relative_depth": 2.0,
+          "parent_depth": 12,
+          "parent_lexname": "noun.animal",
+          "parent_name": "teleost fish, teleost, teleostan",
+          "role": "d",
+          "semantic_group": 14,
+          "semantic_parent": "teleost_fish.n.01",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n02640242"
+        },
+        {
+          "candidate_id": "teleost_fish.n.01__n02536864_n02526121_n02640242_n02641379_n02655020",
+          "class_depth": 15,
+          "class_name": "puffer, pufferfish, blowfish, globefish",
+          "imagenet_descendant_count": 10,
+          "mean_relative_depth": 2.0,
+          "parent_depth": 12,
+          "parent_lexname": "noun.animal",
+          "parent_name": "teleost fish, teleost, teleostan",
+          "role": "a",
+          "semantic_group": 14,
+          "semantic_parent": "teleost_fish.n.01",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n02655020"
+        },
+        {
+          "candidate_id": "teleost_fish.n.01__n02536864_n02526121_n02640242_n02641379_n02655020",
+          "class_depth": 14,
+          "class_name": "gar, garfish, garpike, billfish, Lepisosteus osseus",
+          "imagenet_descendant_count": 10,
+          "mean_relative_depth": 2.0,
+          "parent_depth": 12,
+          "parent_lexname": "noun.animal",
+          "parent_name": "teleost fish, teleost, teleostan",
+          "role": "b",
+          "semantic_group": 14,
+          "semantic_parent": "teleost_fish.n.01",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n02641379"
+        },
+        {
+          "candidate_id": "teleost_fish.n.01__n02536864_n02526121_n02640242_n02641379_n02655020",
+          "class_depth": 13,
+          "class_name": "coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch",
+          "imagenet_descendant_count": 10,
+          "mean_relative_depth": 2.0,
+          "parent_depth": 12,
+          "parent_lexname": "noun.animal",
+          "parent_name": "teleost fish, teleost, teleostan",
+          "role": "r1",
+          "semantic_group": 14,
+          "semantic_parent": "teleost_fish.n.01",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n02536864"
+        },
+        {
+          "candidate_id": "teleost_fish.n.01__n02536864_n02526121_n02640242_n02641379_n02655020",
+          "class_depth": 14,
+          "class_name": "eel",
+          "imagenet_descendant_count": 10,
+          "mean_relative_depth": 2.0,
+          "parent_depth": 12,
+          "parent_lexname": "noun.animal",
+          "parent_name": "teleost fish, teleost, teleostan",
+          "role": "r2",
+          "semantic_group": 14,
+          "semantic_parent": "teleost_fish.n.01",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n02526121"
+        }
+      ],
+      "group_id": 14,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n02640242",
+            "n02641379",
+            "n02536864",
+            "n02526121"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n02655020"
+        },
+        "M2": {
+          "included_wnids": [
+            "n02640242",
+            "n02655020",
+            "n02536864",
+            "n02526121"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n02641379"
+        },
+        "M3": {
+          "included_wnids": [
+            "n02640242",
+            "n02655020",
+            "n02641379",
+            "n02526121"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n02536864"
+        },
+        "M4": {
+          "included_wnids": [
+            "n02640242",
+            "n02655020",
+            "n02641379",
+            "n02536864"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n02526121"
+        }
+      },
+      "parent_depth": 12,
+      "parent_name": "teleost fish, teleost, teleostan",
+      "semantic_parent": "teleost_fish.n.01"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "footwear.n.02__n03047690_n03124043_n03680355_n04120489_n04133789",
+          "class_depth": 8,
+          "class_name": "sandal",
+          "imagenet_descendant_count": 5,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 6,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "footwear, footgear",
+          "role": "d",
+          "semantic_group": 15,
+          "semantic_parent": "footwear.n.02",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n04133789"
+        },
+        {
+          "candidate_id": "footwear.n.02__n03047690_n03124043_n03680355_n04120489_n04133789",
+          "class_depth": 8,
+          "class_name": "running shoe",
+          "imagenet_descendant_count": 5,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 6,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "footwear, footgear",
+          "role": "a",
+          "semantic_group": 15,
+          "semantic_parent": "footwear.n.02",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n04120489"
+        },
+        {
+          "candidate_id": "footwear.n.02__n03047690_n03124043_n03680355_n04120489_n04133789",
+          "class_depth": 7,
+          "class_name": "clog, geta, patten, sabot",
+          "imagenet_descendant_count": 5,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 6,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "footwear, footgear",
+          "role": "b",
+          "semantic_group": 15,
+          "semantic_parent": "footwear.n.02",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n03047690"
+        },
+        {
+          "candidate_id": "footwear.n.02__n03047690_n03124043_n03680355_n04120489_n04133789",
+          "class_depth": 8,
+          "class_name": "cowboy boot",
+          "imagenet_descendant_count": 5,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 6,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "footwear, footgear",
+          "role": "r1",
+          "semantic_group": 15,
+          "semantic_parent": "footwear.n.02",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n03124043"
+        },
+        {
+          "candidate_id": "footwear.n.02__n03047690_n03124043_n03680355_n04120489_n04133789",
+          "class_depth": 8,
+          "class_name": "Loafer",
+          "imagenet_descendant_count": 5,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 6,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "footwear, footgear",
+          "role": "r2",
+          "semantic_group": 15,
+          "semantic_parent": "footwear.n.02",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n03680355"
+        }
+      ],
+      "group_id": 15,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n04133789",
+            "n03047690",
+            "n03124043",
+            "n03680355"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n04120489"
+        },
+        "M2": {
+          "included_wnids": [
+            "n04133789",
+            "n04120489",
+            "n03124043",
+            "n03680355"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n03047690"
+        },
+        "M3": {
+          "included_wnids": [
+            "n04133789",
+            "n04120489",
+            "n03047690",
+            "n03680355"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n03124043"
+        },
+        "M4": {
+          "included_wnids": [
+            "n04133789",
+            "n04120489",
+            "n03047690",
+            "n03124043"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n03680355"
+        }
+      },
+      "parent_depth": 6,
+      "parent_name": "footwear, footgear",
+      "semantic_parent": "footwear.n.02"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "truck.n.01__n03345487_n03417042_n03770679_n03930630_n04461696",
+          "class_depth": 11,
+          "class_name": "minivan",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 10,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "truck, motortruck",
+          "role": "d",
+          "semantic_group": 16,
+          "semantic_parent": "truck.n.01",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n03770679"
+        },
+        {
+          "candidate_id": "truck.n.01__n03345487_n03417042_n03770679_n03930630_n04461696",
+          "class_depth": 11,
+          "class_name": "tow truck, tow car, wrecker",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 10,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "truck, motortruck",
+          "role": "a",
+          "semantic_group": 16,
+          "semantic_parent": "truck.n.01",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n04461696"
+        },
+        {
+          "candidate_id": "truck.n.01__n03345487_n03417042_n03770679_n03930630_n04461696",
+          "class_depth": 11,
+          "class_name": "pickup, pickup truck",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 10,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "truck, motortruck",
+          "role": "b",
+          "semantic_group": 16,
+          "semantic_parent": "truck.n.01",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n03930630"
+        },
+        {
+          "candidate_id": "truck.n.01__n03345487_n03417042_n03770679_n03930630_n04461696",
+          "class_depth": 11,
+          "class_name": "garbage truck, dustcart",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 10,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "truck, motortruck",
+          "role": "r1",
+          "semantic_group": 16,
+          "semantic_parent": "truck.n.01",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n03417042"
+        },
+        {
+          "candidate_id": "truck.n.01__n03345487_n03417042_n03770679_n03930630_n04461696",
+          "class_depth": 11,
+          "class_name": "fire engine, fire truck",
+          "imagenet_descendant_count": 8,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 10,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "truck, motortruck",
+          "role": "r2",
+          "semantic_group": 16,
+          "semantic_parent": "truck.n.01",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n03345487"
+        }
+      ],
+      "group_id": 16,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n03770679",
+            "n03930630",
+            "n03417042",
+            "n03345487"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n04461696"
+        },
+        "M2": {
+          "included_wnids": [
+            "n03770679",
+            "n04461696",
+            "n03417042",
+            "n03345487"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n03930630"
+        },
+        "M3": {
+          "included_wnids": [
+            "n03770679",
+            "n04461696",
+            "n03930630",
+            "n03345487"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n03417042"
+        },
+        "M4": {
+          "included_wnids": [
+            "n03770679",
+            "n04461696",
+            "n03930630",
+            "n03417042"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n03345487"
+        }
+      },
+      "parent_depth": 10,
+      "parent_name": "truck, motortruck",
+      "semantic_parent": "truck.n.01"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "new_world_monkey.n.01__n02490219_n02492035_n02492660_n02493509_n02493793",
+          "class_depth": 14,
+          "class_name": "titi, titi monkey",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 13,
+          "parent_lexname": "noun.animal",
+          "parent_name": "New World monkey, platyrrhine, platyrrhinian",
+          "role": "d",
+          "semantic_group": 17,
+          "semantic_parent": "new_world_monkey.n.01",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n02493509"
+        },
+        {
+          "candidate_id": "new_world_monkey.n.01__n02490219_n02492035_n02492660_n02493509_n02493793",
+          "class_depth": 14,
+          "class_name": "marmoset",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 13,
+          "parent_lexname": "noun.animal",
+          "parent_name": "New World monkey, platyrrhine, platyrrhinian",
+          "role": "a",
+          "semantic_group": 17,
+          "semantic_parent": "new_world_monkey.n.01",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n02490219"
+        },
+        {
+          "candidate_id": "new_world_monkey.n.01__n02490219_n02492035_n02492660_n02493509_n02493793",
+          "class_depth": 14,
+          "class_name": "howler monkey, howler",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 13,
+          "parent_lexname": "noun.animal",
+          "parent_name": "New World monkey, platyrrhine, platyrrhinian",
+          "role": "b",
+          "semantic_group": 17,
+          "semantic_parent": "new_world_monkey.n.01",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n02492660"
+        },
+        {
+          "candidate_id": "new_world_monkey.n.01__n02490219_n02492035_n02492660_n02493509_n02493793",
+          "class_depth": 14,
+          "class_name": "capuchin, ringtail, Cebus capucinus",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 13,
+          "parent_lexname": "noun.animal",
+          "parent_name": "New World monkey, platyrrhine, platyrrhinian",
+          "role": "r1",
+          "semantic_group": 17,
+          "semantic_parent": "new_world_monkey.n.01",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n02492035"
+        },
+        {
+          "candidate_id": "new_world_monkey.n.01__n02490219_n02492035_n02492660_n02493509_n02493793",
+          "class_depth": 14,
+          "class_name": "spider monkey, Ateles geoffroyi",
+          "imagenet_descendant_count": 6,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 13,
+          "parent_lexname": "noun.animal",
+          "parent_name": "New World monkey, platyrrhine, platyrrhinian",
+          "role": "r2",
+          "semantic_group": 17,
+          "semantic_parent": "new_world_monkey.n.01",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n02493793"
+        }
+      ],
+      "group_id": 17,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n02493509",
+            "n02492660",
+            "n02492035",
+            "n02493793"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n02490219"
+        },
+        "M2": {
+          "included_wnids": [
+            "n02493509",
+            "n02490219",
+            "n02492035",
+            "n02493793"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n02492660"
+        },
+        "M3": {
+          "included_wnids": [
+            "n02493509",
+            "n02490219",
+            "n02492660",
+            "n02493793"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n02492035"
+        },
+        "M4": {
+          "included_wnids": [
+            "n02493509",
+            "n02490219",
+            "n02492660",
+            "n02492035"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n02493793"
+        }
+      },
+      "parent_depth": 13,
+      "parent_name": "New World monkey, platyrrhine, platyrrhinian",
+      "semantic_parent": "new_world_monkey.n.01"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "ball.n.01__n02799071_n02802426_n03134739_n03445777_n03942813",
+          "class_depth": 9,
+          "class_name": "golf ball",
+          "imagenet_descendant_count": 10,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 8,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "ball",
+          "role": "d",
+          "semantic_group": 18,
+          "semantic_parent": "ball.n.01",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n03445777"
+        },
+        {
+          "candidate_id": "ball.n.01__n02799071_n02802426_n03134739_n03445777_n03942813",
+          "class_depth": 9,
+          "class_name": "basketball",
+          "imagenet_descendant_count": 10,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 8,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "ball",
+          "role": "a",
+          "semantic_group": 18,
+          "semantic_parent": "ball.n.01",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n02802426"
+        },
+        {
+          "candidate_id": "ball.n.01__n02799071_n02802426_n03134739_n03445777_n03942813",
+          "class_depth": 9,
+          "class_name": "croquet ball",
+          "imagenet_descendant_count": 10,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 8,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "ball",
+          "role": "b",
+          "semantic_group": 18,
+          "semantic_parent": "ball.n.01",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n03134739"
+        },
+        {
+          "candidate_id": "ball.n.01__n02799071_n02802426_n03134739_n03445777_n03942813",
+          "class_depth": 9,
+          "class_name": "ping-pong ball",
+          "imagenet_descendant_count": 10,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 8,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "ball",
+          "role": "r1",
+          "semantic_group": 18,
+          "semantic_parent": "ball.n.01",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n03942813"
+        },
+        {
+          "candidate_id": "ball.n.01__n02799071_n02802426_n03134739_n03445777_n03942813",
+          "class_depth": 9,
+          "class_name": "baseball",
+          "imagenet_descendant_count": 10,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 8,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "ball",
+          "role": "r2",
+          "semantic_group": 18,
+          "semantic_parent": "ball.n.01",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n02799071"
+        }
+      ],
+      "group_id": 18,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n03445777",
+            "n03134739",
+            "n03942813",
+            "n02799071"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n02802426"
+        },
+        "M2": {
+          "included_wnids": [
+            "n03445777",
+            "n02802426",
+            "n03942813",
+            "n02799071"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n03134739"
+        },
+        "M3": {
+          "included_wnids": [
+            "n03445777",
+            "n02802426",
+            "n03134739",
+            "n02799071"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n03942813"
+        },
+        "M4": {
+          "included_wnids": [
+            "n03445777",
+            "n02802426",
+            "n03134739",
+            "n03942813"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n02799071"
+        }
+      },
+      "parent_depth": 8,
+      "parent_name": "ball",
+      "semantic_parent": "ball.n.01"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "seat.n.03__n04447861_n02791124_n03376595_n03891251_n04099969",
+          "class_depth": 10,
+          "class_name": "park bench",
+          "imagenet_descendant_count": 7,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 8,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "seat",
+          "role": "d",
+          "semantic_group": 19,
+          "semantic_parent": "seat.n.03",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n03891251"
+        },
+        {
+          "candidate_id": "seat.n.03__n04447861_n02791124_n03376595_n03891251_n04099969",
+          "class_depth": 10,
+          "class_name": "folding chair",
+          "imagenet_descendant_count": 7,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 8,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "seat",
+          "role": "a",
+          "semantic_group": 19,
+          "semantic_parent": "seat.n.03",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n03376595"
+        },
+        {
+          "candidate_id": "seat.n.03__n04447861_n02791124_n03376595_n03891251_n04099969",
+          "class_depth": 10,
+          "class_name": "barber chair",
+          "imagenet_descendant_count": 7,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 8,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "seat",
+          "role": "b",
+          "semantic_group": 19,
+          "semantic_parent": "seat.n.03",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n02791124"
+        },
+        {
+          "candidate_id": "seat.n.03__n04447861_n02791124_n03376595_n03891251_n04099969",
+          "class_depth": 10,
+          "class_name": "rocking chair, rocker",
+          "imagenet_descendant_count": 7,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 8,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "seat",
+          "role": "r1",
+          "semantic_group": 19,
+          "semantic_parent": "seat.n.03",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n04099969"
+        },
+        {
+          "candidate_id": "seat.n.03__n04447861_n02791124_n03376595_n03891251_n04099969",
+          "class_depth": 9,
+          "class_name": "toilet seat",
+          "imagenet_descendant_count": 7,
+          "mean_relative_depth": 1.8,
+          "parent_depth": 8,
+          "parent_lexname": "noun.artifact",
+          "parent_name": "seat",
+          "role": "r2",
+          "semantic_group": 19,
+          "semantic_parent": "seat.n.03",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n04447861"
+        }
+      ],
+      "group_id": 19,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n03891251",
+            "n02791124",
+            "n04099969",
+            "n04447861"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n03376595"
+        },
+        "M2": {
+          "included_wnids": [
+            "n03891251",
+            "n03376595",
+            "n04099969",
+            "n04447861"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n02791124"
+        },
+        "M3": {
+          "included_wnids": [
+            "n03891251",
+            "n03376595",
+            "n02791124",
+            "n04447861"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n04099969"
+        },
+        "M4": {
+          "included_wnids": [
+            "n03891251",
+            "n03376595",
+            "n02791124",
+            "n04099969"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n04447861"
+        }
+      },
+      "parent_depth": 8,
+      "parent_name": "seat",
+      "semantic_parent": "seat.n.03"
+    },
+    {
+      "classes": [
+        {
+          "candidate_id": "fungus.n.01__n12985857_n13037406_n13040303_n13044778_n13052670",
+          "class_depth": 7,
+          "class_name": "gyromitra",
+          "imagenet_descendant_count": 7,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 6,
+          "parent_lexname": "noun.plant",
+          "parent_name": "fungus",
+          "role": "d",
+          "semantic_group": 20,
+          "semantic_parent": "fungus.n.01",
+          "slot": 0,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": null,
+          "wnid": "n13037406"
+        },
+        {
+          "candidate_id": "fungus.n.01__n12985857_n13037406_n13040303_n13044778_n13052670",
+          "class_depth": 7,
+          "class_name": "earthstar",
+          "imagenet_descendant_count": 7,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 6,
+          "parent_lexname": "noun.plant",
+          "parent_name": "fungus",
+          "role": "a",
+          "semantic_group": 20,
+          "semantic_parent": "fungus.n.01",
+          "slot": 1,
+          "supervised_models": [
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M1",
+          "wnid": "n13044778"
+        },
+        {
+          "candidate_id": "fungus.n.01__n12985857_n13037406_n13040303_n13044778_n13052670",
+          "class_depth": 7,
+          "class_name": "hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa",
+          "imagenet_descendant_count": 7,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 6,
+          "parent_lexname": "noun.plant",
+          "parent_name": "fungus",
+          "role": "b",
+          "semantic_group": 20,
+          "semantic_parent": "fungus.n.01",
+          "slot": 2,
+          "supervised_models": [
+            "M1",
+            "M3",
+            "M4"
+          ],
+          "withheld_model": "M2",
+          "wnid": "n13052670"
+        },
+        {
+          "candidate_id": "fungus.n.01__n12985857_n13037406_n13040303_n13044778_n13052670",
+          "class_depth": 7,
+          "class_name": "coral fungus",
+          "imagenet_descendant_count": 7,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 6,
+          "parent_lexname": "noun.plant",
+          "parent_name": "fungus",
+          "role": "r1",
+          "semantic_group": 20,
+          "semantic_parent": "fungus.n.01",
+          "slot": 3,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M4"
+          ],
+          "withheld_model": "M3",
+          "wnid": "n12985857"
+        },
+        {
+          "candidate_id": "fungus.n.01__n12985857_n13037406_n13040303_n13044778_n13052670",
+          "class_depth": 7,
+          "class_name": "stinkhorn, carrion fungus",
+          "imagenet_descendant_count": 7,
+          "mean_relative_depth": 1.0,
+          "parent_depth": 6,
+          "parent_lexname": "noun.plant",
+          "parent_name": "fungus",
+          "role": "r2",
+          "semantic_group": 20,
+          "semantic_parent": "fungus.n.01",
+          "slot": 4,
+          "supervised_models": [
+            "M1",
+            "M2",
+            "M3"
+          ],
+          "withheld_model": "M4",
+          "wnid": "n13040303"
+        }
+      ],
+      "group_id": 20,
+      "model_assignments": {
+        "M1": {
+          "included_wnids": [
+            "n13037406",
+            "n13052670",
+            "n12985857",
+            "n13040303"
+          ],
+          "withheld_role": "a",
+          "withheld_wnid": "n13044778"
+        },
+        "M2": {
+          "included_wnids": [
+            "n13037406",
+            "n13044778",
+            "n12985857",
+            "n13040303"
+          ],
+          "withheld_role": "b",
+          "withheld_wnid": "n13052670"
+        },
+        "M3": {
+          "included_wnids": [
+            "n13037406",
+            "n13044778",
+            "n13052670",
+            "n13040303"
+          ],
+          "withheld_role": "r1",
+          "withheld_wnid": "n12985857"
+        },
+        "M4": {
+          "included_wnids": [
+            "n13037406",
+            "n13044778",
+            "n13052670",
+            "n12985857"
+          ],
+          "withheld_role": "r2",
+          "withheld_wnid": "n13040303"
+        }
+      },
+      "parent_depth": 6,
+      "parent_name": "fungus",
+      "semantic_parent": "fungus.n.01"
+    }
+  ],
+  "metadata": {
+    "design": "rotation4_v1",
+    "models": [
+      "M1",
+      "M2",
+      "M3",
+      "M4"
+    ],
+    "semantic_groups_regenerated": false,
+    "slot_order": [
+      "a",
+      "b",
+      "r1",
+      "r2"
+    ],
+    "source_design": "v2_semantic_diversity",
+    "source_manifest": "manifests/imagenet/semantic_groups_rotation4_v1.json",
+    "source_manifest_sha256": "de889da88da4f8ef505556e4f40ca978006edb6de8ca8e025a99d4e0a78e0e33"
+  }
+}

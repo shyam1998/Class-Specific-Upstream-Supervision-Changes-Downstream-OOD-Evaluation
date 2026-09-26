@@ -1,0 +1,32 @@
+{
+  "batch_size": 256,
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 20260917,
+    "unit": "genus"
+  },
+  "data_policy": "all native full-train images for the frozen 100 species",
+  "epochs": 100,
+  "primary": {
+    "delta": "withheld - supervised_mean",
+    "detector": "cosine kNN",
+    "k": 50
+  },
+  "rotation_images": {
+    "M1": 22289,
+    "M2": 22142,
+    "M3": 22035,
+    "M4": 22058
+  },
+  "rotations": [
+    "M1",
+    "M2",
+    "M3",
+    "M4"
+  ],
+  "seeds": [
+    0,
+    1
+  ],
+  "study": "supervised_inaturalist_rotation4"
+}
