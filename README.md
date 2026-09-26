@@ -63,23 +63,3 @@ python -m experiments.vit.cifar100.v2.run aggregate
 # Replace the module above with experiments.vit.imagenet.run_vit or
 # experiments.vit.inaturalist.run_vit for the corresponding dataset.
 ```
-
-The classification-quality gates in the ViT launchers run before focal-OOD evaluation. The detector suite reuses each trained encoder and downstream probe across kNN, Energy, MSP, Mahalanobis, ViM, NECO, NCI, GradOrth, and ODIN. Detector fitting uses downstream-ID data only.
-
-For detector replay after feature/probe generation:
-
-```bash
-python -m analysis.detectors.src.run_all_features
-python -m analysis.detectors.src.run_all_odin
-python -m analysis.detectors.src.verify_coverage
-python -m analysis.detectors.src.analyze
-```
-
-Set `CIFAR_SUPERVISED_ROOT`, `IMAGENET_SUPERVISED_ROOT`, and `INAT_SUPERVISED_ROOT` if artifacts are outside their experiment directories. Set `PROVENANCE_OUTPUT_ROOT` to choose the analysis output directory.
-
-## Validation
-
-```bash
-python -m compileall -q .
-pytest -q analysis/detectors/tests
-```
