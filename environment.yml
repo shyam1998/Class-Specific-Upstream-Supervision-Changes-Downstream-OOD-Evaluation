@@ -1,0 +1,19 @@
+name: provenance-ood
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch=2.5
+  - torchvision=0.20
+  - pytorch-cuda=12.4
+  - numpy=2.1
+  - pandas=2.2
+  - scipy=1.14
+  - scikit-learn=1.5
+  - matplotlib=3.9
+  - pillow=10.4
+  - pyyaml=6.0
+  - tqdm=4.66
+  - pytest=8.3
